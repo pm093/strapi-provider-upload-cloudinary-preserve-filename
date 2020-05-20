@@ -1,0 +1,60 @@
+{
+  "_from": "github:pointout/strapi-provider-upload-cloudinary-preserve-filename",
+  "_id": "strapi-provider-upload-cloudinary-preserve-filename@1.0.3",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/strapi-provider-upload-cloudinary-preserve-filename",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "pointout/strapi-provider-upload-cloudinary-preserve-filename",
+    "rawSpec": "pointout/strapi-provider-upload-cloudinary-preserve-filename",
+    "saveSpec": "github:pointout/strapi-provider-upload-cloudinary-preserve-filename",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "github:pointout/strapi-provider-upload-cloudinary-preserve-filename#94f993be3f98890cb69e174826b147add5b47474",
+  "_spec": "pointout/strapi-provider-upload-cloudinary-preserve-filename",
+  "_where": "C:\\Users\\piotr\\Desktop\\strapi-cms",
+  "author": {
+    "name": "Roman Walters"
+  },
+  "bugs": {
+    "url": "https://github.com/pointout/strapi-provider-upload-cloudinary-preserve-filename/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "cloudinary": "^1.14.0",
+    "into-stream": "^5.1.0"
+  },
+  "deprecated": false,
+  "description": "cloudinary uploader for strapi with settings for folder and preserving filename as prefix to hash",
+  "devDependencies": {},
+  "directories": {
+    "lib": "./lib"
+  },
+  "homepage": "https://github.com/pointout/strapi-provider-upload-cloudinary-preserve-filename#readme",
+  "keywords": [
+    "strapi",
+    "cloudinary",
+    "uploader"
+  ],
+  "license": "MIT",
+  "main": "./lib",
+  "name": "strapi-provider-upload-cloudinary-preserve-filename",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pointout/strapi-provider-upload-cloudinary-preserve-filename.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "version": "1.0.3"
+}
